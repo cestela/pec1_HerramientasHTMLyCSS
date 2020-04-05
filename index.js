@@ -1,2 +1,2 @@
-const name = 'world'
-console.log(`Hello ${name}`);
+import "./style.css"
+import "@fortawesome/fontawesome-free/css/all.css"

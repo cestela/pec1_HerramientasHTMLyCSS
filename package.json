@@ -1,0 +1,29 @@
+{
+  "name": "pec1",
+  "version": "1.0.0",
+  "description": "PEC 1 de la asignatura Herramientas HTML y CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel index.html",
+    "parcel:build": "parcel build index.html",
+    "clean": "rimraf dist .cache .cache-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cestela/pec1_HerramientasHTMLyCSS.git"
+  },
+  "author": "Carlos Estela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cestela/pec1_HerramientasHTMLyCSS/issues"
+  },
+  "homepage": "https://github.com/cestela/pec1_HerramientasHTMLyCSS#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
+  }
+}

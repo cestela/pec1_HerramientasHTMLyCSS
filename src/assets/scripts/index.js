@@ -1,4 +1,4 @@
-import "@fortawesome/fontawesome-free/css/all.css"
+import "@fortawesome/fontawesome-free"
 
 var i = 0;
 var txtLenguajes = "HTML, CSS y JavaScript comforman el grupo de los lenguajes usados en el desarrollo front-end... ¿Sobre qué lenguaje te gustaría saber más?"

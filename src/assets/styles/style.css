@@ -31,10 +31,6 @@ h1 {
   color: black;
 }
 
-#atras {
-  align-self: left;
-}
-
 .atras {
   font-size: 25px;
   padding-top: 5%;
@@ -128,6 +124,10 @@ article p {
 .max-width {
   width: 100%;
   padding-left: 0;
+}
+
+iframe {
+  border: 0px;
 }
 
 .contenedor-video {
